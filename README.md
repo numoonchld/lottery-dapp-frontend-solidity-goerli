@@ -20,3 +20,4 @@
 
 - [lottery contract source code](https://github.com/numoonchld/lottery-dapp-frontend-solidity-goerli/blob/main/src/assets/contracts/lottery-contract/Lottery.sol)
 - [lottery token contract source code](https://github.com/numoonchld/lottery-dapp-frontend-solidity-goerli/blob/main/src/assets/contracts/lottery-token-contract/LotteryToken.sol)
+  - generated using the [open-zeppelin contract wizard tool](https://docs.openzeppelin.com/contracts/4.x/wizard)
