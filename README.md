@@ -1,27 +1,22 @@
-# Client
+# lottery dapp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.6.
+## compatibilities
 
-## Development server
+- _only_ on the ethereum goerli network
+- _only_ with Metamask
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## live app:
 
-## Code scaffolding
+- [audit the dApp UI](https://numoonchld.github.io/lottery-dapp-frontend-solidity-goerli)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## additional details
 
-## Build
+### `goerli` addresses
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- [lottery contract deployment on goerli](https://goerli.etherscan.io/address/0x5e03bcfDEfa3331A05B563Fdc25e6118B072bd1b)
+- [lottery token contract deployment on goerli](https://goerli.etherscan.io/address/0x9f7D33f573Be59184367d101520Dd6e606606633)
 
-## Running unit tests
+### source code
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- [lottery contract source code](https://github.com/numoonchld/lottery-dapp-frontend-solidity-goerli/blob/main/src/assets/contracts/lottery-contract/Lottery.sol)
+- [lottery token contract source code](https://github.com/numoonchld/lottery-dapp-frontend-solidity-goerli/blob/main/src/assets/contracts/lottery-token-contract/LotteryToken.sol)
